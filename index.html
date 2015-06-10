@@ -1,8 +1,23 @@
 <html>
 	<head>
 		<link type="text/css" href="css/index.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<meta charset="utf-8" />
 	    <title>赵旭（@旭）| 主页</title>
-	    <meta charset="utf-8" />
+		<script type="text/javascript">
+			setInterval(doimg,3000);
+			function doimg(){
+				var imgid = $("#head_img").attr("src").substring(12,13);
+				if(imgid==1){
+					$("#head_img").attr({src:"images/head-2.png"});
+				}else if(imgid==2){
+					$("#head_img").attr({src:"images/head-3.png"});
+				}else if(imgid==3){
+					$("#head_img").attr({src:"images/head-1.png"});
+				}
+			}
+		</script>
 	</head>
 	<body>
 	  <div id="head">
@@ -18,11 +33,15 @@
 		  </p>
 		</div>
 		<div id="music163">
-			<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=29567193&auto=1&height=66"></iframe>
+			<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=29567193&auto=0&height=66"></iframe>
 		</div>
 	  </div>
 	  <div id="main">
 	      <h2 class="align-center">正在努力建设中！给你带来不便，敬请谅解！！！</h2>
+		  <br>
+		  <div id="video" class="align-center">
+			  <embed width="500px" height="285px" src="R/wojiaojiangxiaomeng.mp4" autostart="false"/>
+		  </div>
 	  </div>
 	  <div id="foot"></div>
 	</body>
