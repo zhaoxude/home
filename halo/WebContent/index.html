@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Halo Limited Company</title>
+    <LINK href="imgs/halo.ico" type="image/x-icon" rel=icon>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery.movebg.js" type="javascript"></script>
+    <script src="js/jquery-1.7.2.min.js" type="javascript"></script>
+</head>
+<body>
+<div id="head" class="center">
+    <div id="show">
+        <marquee>
+            <img src="imgs/gsztt-1.png">
+            <img src="imgs/gsztt-2.png">
+            <img src="imgs/gsztt-3.png">
+            <img src="imgs/gsztt-4.jpg">
+        </marquee>
+    </div>
+    <!-- 代码 开始 -->
+    <div class="wraper">
+        <div class="nav">
+            <ul>
+                <li class="nav-item"><a href="#" target="_blank">网站首页</a></li>
+                <li class="nav-item"><a href="#" target="_blank">网上商城</a></li>
+                <li class="nav-item"><a href="#" target="_blank">智能管家</a></li>
+                <li class="nav-item"><a href="#" target="_blank">技术支持</a></li>
+                <li class="nav-item"><a href="#" target="_blank">应用案例</a></li>
+                <li class="nav-item"><a href="views/about.html" target="_blank">关于我们</a></li>
+                <li><h1>Halo Limited Company</h1></li>
+            </ul>
+            <!--移动的滑动-->
+            <div class="move-bg"></div>
+            <!--移动的滑动 end-->
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $(".nav").movebg({
+                width: 120/*滑块的大小*/,
+                extra: 40/*额外反弹的距离*/,
+                speed: 300/*滑块移动的速度*/,
+                rebound_speed: 400/*滑块反弹的速度*/
+            });
+        })
+    </script>
+
+    <!-- 代码 结束 -->
+    <h1>Halo Limited Company</h1>
+</div>
+
+</body>
+</html>
