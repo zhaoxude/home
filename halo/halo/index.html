@@ -10,45 +10,35 @@
     <script src="js/jquery-1.7.2.min.js" type="javascript"></script>
 </head>
 <body>
-<div id="head" class="center">
-    <p style="background-color: aquamarine"><img src="imgs/head_logo.png"></p>
-    <div id="show">
-        <marquee>
-            <img src="imgs/gsztt-1.png">
-            <img src="imgs/gsztt-2.png">
-            <img src="imgs/gsztt-3.png">
-            <img src="imgs/gsztt-4.jpg">
-        </marquee>
-    </div>
-    <!-- 代码 开始 -->
-    <div class="wraper">
-        <div class="nav">
-            <ul style="margin-left: 150px;">
-                <li class="nav-item"><a href="http://www.woojong.com.cn/cn/about.aspx" target="_blank">关于我们</a></li>
-                <li class="nav-item"><a href="http://www.woojong.com.cn/cn/prolist.aspx" target="_blank">最新产品</a></li>
-                <li class="nav-item"><a href="http://www.woojong.com.cn/cn/news.aspx" target="_blank">新闻资讯</a></li>
-                <li class="nav-item"><a href="http://www.woojong.com.cn/cn/case.aspx" target="_blank">客户案例</a></li>
-                <li class="nav-item"><a href="http://www.woojong.com.cn/cn/tech.aspx" target="_blank">技术优势</a></li>
-                <li class="nav-item"><a href="http://www.woojong.com.cn/cn/contact.aspx" target="_blank">联系我们</a></li>
-            </ul>
-            <!--移动的滑动-->
-            <div class="move-bg"></div>
-            <!--移动的滑动 end-->
-        </div>
-    </div>
-    <script>
-        $(function () {
-            $(".nav").movebg({
-                width: 120/*滑块的大小*/,
-                extra: 40/*额外反弹的距离*/,
-                speed: 300/*滑块移动的速度*/,
-                rebound_speed: 400/*滑块反弹的速度*/
-            });
-        })
-    </script>
+<div id="head">
+    <table>
+        <tr >
+            <div style="width: 20%;float: left"><img src="imgs/head_logo.png" ></div>
+            <td>
+                <img src="imgs/lantian.jpg" style="width: 100%;height: 200px;">
+                <img src="imgs/diqiu.png" style="width: 152px;margin-top: -200px;margin-left: 90%;">
+                <img src="imgs/Halo-k.png" style="margin-top: -244px;height: 263px;margin-left: 810px;">
+            </td>
+        </tr>
+    </table>
+    <p>
+        <!-- 代码 开始 -->
+        <div class="wraper" style="width:100%;margin-top: -37px;">
+            <div id="links" class="nav">
+                <ul>
+                    <li class="nav-item"><a href="http://www.woojong.com.cn/cn/about.aspx" target="_blank">关于我们</a></li>
+                    <li class="nav-item"><a href="http://www.woojong.com.cn/cn/prolist.aspx" target="_blank">最新产品</a></li>
+                    <li class="nav-item"><a href="http://www.woojong.com.cn/cn/news.aspx" target="_blank">新闻资讯</a></li>
+                    <li class="nav-item"><a href="http://www.woojong.com.cn/cn/case.aspx" target="_blank">客户案例</a></li>
+                    <li class="nav-item"><a href="http://www.woojong.com.cn/cn/tech.aspx"  target="_blank">技术优势</a></li>
+                    <li class="nav-item"><a href="http://www.woojong.com.cn/cn/contact.aspx" target="_blank">联系我们</a></li>
+                </ul>
+            </div>
 
-    <!-- 代码 结束 -->
-    <h1>Halo Limited Company</h1>
+        </div>
+        <!-- 代码 结束 -->
+    </p>
+    <h1 style="letter-spacing: 24px;  margin-top: -85px;">Halo Limited Company</h1>
 </div>
 
 </body>
