@@ -8,6 +8,17 @@
 		<LINK href="images/home-logo.ico" type="image/x-icon" rel=icon>
 	</head>
 	<body>
+	<script>
+		(function () {
+			window.baiduImageTalk = {
+				'renderUrl': 'http://bcscdn.baidu.com/public03/imageplus/tuhua/v3/toggle.app.js'
+			};
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.src = 'http://bcscdn.baidu.com/public03/imageplus/tuhua/common_loader.js?cache=' + Math.ceil(new Date() / 3600000);
+			document.getElementsByTagName('head')[0].appendChild(s);
+		})();
+	</script>
 		<div style="width: 960px;margin: auto;text-align: center;margin-top: 25px;">
 			<h1>生活的每一天，都要努力!</h1>
 		</div>
