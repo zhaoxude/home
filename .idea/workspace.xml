@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae454a6-65c6-44ca-85ba-939015a5c819" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/notes/201508100051.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/notes/201506280045.html" afterPath="$PROJECT_DIR$/views/notes/201506280045.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/notes/201508100051.html" afterPath="$PROJECT_DIR$/views/notes/201508100051.html" />
     </list>
     <ignored path="home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/views/notes/201508100051.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.48435688">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -572,7 +569,7 @@
       <workItem from="1436315682875" duration="51000" />
       <workItem from="1436400187227" duration="32000" />
       <workItem from="1436796759641" duration="665000" />
-      <workItem from="1439139065233" duration="2400000" />
+      <workItem from="1439139065233" duration="2689000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1435422060848</created>
@@ -608,7 +605,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45173000" />
+    <option name="totallyTimeSpent" value="45462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
@@ -1217,7 +1214,7 @@
     <entry file="file://$PROJECT_DIR$/views/notes/201508100051.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48435688">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
