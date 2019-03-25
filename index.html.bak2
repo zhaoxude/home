@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta name="baidu-site-verification" content="2Uzj10sbYD" />
+		<link type="text/css" href="css/index.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<meta charset="utf-8" />
+	    	<title>赵旭 | 简历</title>
+		<LINK href="images/home-logo.ico" type="image/x-icon" rel=icon>
+		<script type="text/javascript" src='/js/pdfobject.js'></script>
+		<style type="text/css">
+			html,body,#pdf_viewer{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+	<div id="pdf_viewer"></div>
+	</body>
+	<script type="text/javascript">
+        if(PDFObject.supportsPDFs){
+            console.log("Yay, this browser supports inline PDFs.");
+        } else {
+            console.log("Boo, inline PDFs are not supported by this browser");
+        }
+        if(PDFObject.supportsPDFs){
+            PDFObject.embed("/R/赵旭的简历.pdf", "#pdf_viewer" );
+        } else {
+            location.href = "/canvas";
+        }
+	</script>
+</html>
